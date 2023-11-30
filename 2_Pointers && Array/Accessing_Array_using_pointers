@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+
+int array[5]={10,20,30,40,50};
+
+//Accessing Array Elements in an Different ways!
+
+printf("The Third Value of the Array is:%d\n",array[3]);
+
+printf("The Third value of the Array is:%d\n",*(array+3));
+
+printf("The Third value of the Array is:%d\n",*(3+array));
+
+return 0;
+}
